@@ -3,6 +3,14 @@
 Console.WriteLine("Введите число: ");
 int a = Convert.ToInt32(Console.ReadLine());;
 
-if (a % 2) 
+int index = 1;
+
+while ( index <= a)
 {
-     Console.WriteLine("число является четным" + a); 
+    if (index % 2 == 0)  
+    {
+        Console.Write( index + " " ); 
+
+    }
+    index++;
+}
